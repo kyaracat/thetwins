@@ -1,0 +1,23 @@
+@import 
+url(https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700);
+body{background: #edf2f4;perspective: 1000px;transform-style: preserve-3d;display: flex;height: 100vh;font-family: "Playfair Display",georgia,serif;}
+.text-white{color: #000;}
+.text-shadow{text-shadow:1px 1px 1px #000;}
+
+/* textanimation */
+
+.decode-text{
+  width: 100%;
+  font-size: 30px;
+  text-align: center;
+}
+
+/* Card */
+.card{border: none; pointer-events: none;transform: translateZ(0);padding: 30px;background: url(https://i.imgur.com/SeJn5kH.png);width: 600px;height: 700px;margin: auto;transform-style: preserve-3d;backface-visibility: hidden;display: }
+
+.card-content{margin: auto;text-align:center;transform-style: preserve-3d;}
+img{transform: translateZ(100px);}
+h1{transform: translateZ(100px);}
+p{transform: translateZ(50px);display: block;}
+card.related{transform: translateZ(80px);font-style: italic;}
+a{color:#69c6b8;pointer-events: auto;}

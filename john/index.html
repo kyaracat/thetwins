@@ -48,7 +48,7 @@ function init() {
         scene.add(light4);
 
         let loader = new THREE.GLTFLoader();
-        loader.load('office_light.gltf', function(gltf){
+        loader.load('obj/office_light.gltf', function(gltf){
             car = gltf.scene.children[0];
             car.scale.set(0.5,0.5,0.5);
             scene.add(gltf.scene);
